@@ -163,6 +163,7 @@ The project is deployed using **Streamlit**, enabling real-time predictions.
 
 ```bash
 streamlit run app.py
+```
 
 ## 🛠️ Tech Stack:
 Programming: Python
@@ -193,6 +194,8 @@ Data Source: Kaggle API
 │   ├── Final_Report.pdf
 │
 └── README.md
+```
+
 
 ## 🔮 Future Work
 Integration with real-time IoT wind sensor data
