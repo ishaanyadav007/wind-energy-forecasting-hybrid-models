@@ -164,8 +164,52 @@ The project is deployed using **Streamlit**, enabling real-time predictions.
 ```bash
 streamlit run app.py
 
+## 🛠️ Tech Stack:
+Programming: Python
+Libraries: NumPy, pandas, scikit-learn
+Deep Learning: TensorFlow / Keras
+Visualization: Matplotlib, Seaborn
+Deployment: Streamlit
+Data Source: Kaggle API
 
+## 📂 Project Structure
 
+```bash
+├── data/
+│   ├── input_data.csv
+│
+├── notebooks/
+│   ├── ANN.ipynb
+│   ├── RNN.ipynb
+│
+├── models/
+│   ├── ann_model.h5
+│   ├── scaler.pkl
+│
+├── app/
+│   ├── app.py
+│
+├── report/
+│   ├── Final_Report.pdf
+│
+└── README.md
+
+## 🔮 Future Work
+Integration with real-time IoT wind sensor data
+Cloud deployment (AWS / GCP)
+Advanced architectures (LSTM, Transformers)
+Probabilistic forecasting and uncertainty estimation
+Digital twin modeling for wind farms
+
+## 🤝 Contributors
+Ishaan Yadav
+Karthikeya Chanda
+
+## 📜 License
+This project is licensed under the MIT License.
+
+## ⭐ Final Note
+This project demonstrates a comprehensive multi-paradigm approach to wind energy forecasting, combining domain knowledge (physics) with modern AI techniques, making it highly relevant for Data Science, Machine Learning, and Energy Analytics roles.
 
 
 
