@@ -1,0 +1,4 @@
+Time,temperature_2m,relativehumidity_2m,dewpoint_2m,windspeed_10m,windspeed_100m,winddirection_10m,winddirection_100m,windgusts_10m
+02-01-2025 21:00,28.5,85,24.5,1.44,1.26,146,162,1.4
+06-02-2025 02:00,0.7,71,-6.4,2.92,7.57,248,258,5.9
+09-11-2024 14:00,28.3,44,9.2,4.55,6.74,237,238,10.2

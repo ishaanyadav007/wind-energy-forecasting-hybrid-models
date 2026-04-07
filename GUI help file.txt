@@ -1,0 +1,16 @@
+streamlit: Used to create the web-based GUI.
+
+numpy: For handling numerical data and arrays.
+
+joblib: For loading saved objects like scalers.
+
+tensorflow: Used to load and run the ANN model.
+
+
+The scalers ensure the inputs and outputs are normalized in the same way as during training.
+The input is scaled using the input scaler (scaler_X) so it matches the scale the model was trained on.
+The model predicts the output (still in scaled form).
+The predicted output is then inverse-transformed to get the real-world unit (kW) using scaler_y.
+
+open app.py and run the following command in the terminal
+"streamlit run app.py" to start the GUI 
